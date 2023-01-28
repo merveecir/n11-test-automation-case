@@ -1,0 +1,222 @@
+[
+  {
+    "key": "storeButton",
+    "value": "//h3[text()='Tüm Mağazalar']",
+    "type": "xpath"
+  },
+  {
+  "key": "allStores",
+  "value": "//h2[text()='Tüm Mağazalar']",
+  "type": "xpath"
+},
+  {
+    "key": "sLetter",
+    "value": "//div[@class='letters']//span[text()='S']",
+    "type": "xpath"
+  },
+  {
+    "key": "sLetterResult",
+    "value": "//span[@class='infoText']",
+    "type": "xpath"
+  },
+  {
+    "key": "sesaStore",
+    "value": "//a[@href='https://www.n11.com/arama?s=sesa' and @title='sesa']",
+    "type": "xpath"
+  },
+  {
+    "key": "sesaStoreResult",
+    "value": "//a[@href='https://www.n11.com/arama?s=sesa']//span[text()]",
+    "type": "xpath"
+  },
+  {
+    "key": "searchData",
+    "value": "searchData",
+    "type": "id"
+  },
+  {
+    "key": "searchButton",
+    "value": "//span[@class='iconsSearch']",
+    "type": "xpath"
+  },
+  {
+    "key": "firstProduct",
+    "value": "//div[@class='pro']//span[@class='btnBasket' and @data-pid='555476080' and @data-category-id='1000476']",
+    "type": "xpath"
+  },
+  {
+    "key": "secondBrand",
+    "value": "//label[@for='brand-m-Samsung']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectButton",
+    "value": "//div[@class='custom-select' and @data-icon='iconSortBy' and @data-title='Sırala:']",
+    "type": "xpath"
+  },
+  {
+    "key": "reviewSelect",
+    "value": "//div[@class='item i4' and @data-value='REVIEWS']",
+    "type": "xpath"
+  },
+  {
+    "key": "freeShipmentOption",
+    "value": "freeShipmentOption",
+    "type": "id"
+  },
+  {
+    "key": "reviewSelectResult",
+    "value": "//div[@id='smartListOption']//div[@class='selected-item']//span[text()='  Yorum sayısı']",
+    "type": "xpath"
+  },
+  {
+    "key": "freeShipmentOptionResult",
+    "value": "//span[@class='cargoBadgeText']",
+    "type": "xpath"
+  },
+  {
+    "key": "followButton",
+    "value": "//span[@class='followBtn' and @data-productid='555476080']",
+    "type": "xpath"
+  },
+  {
+    "key": "secondProduct",
+    "value": "//div[@class='pro']//span[@class='btnBasket' and @data-pid='565798249' and @data-category-id='1000476']",
+    "type": "xpath"
+  },
+  {
+    "key": "secondFollowButton",
+    "value": "//span[@class='followBtn' and @data-productid='565798249']",
+    "type": "xpath"
+  },
+  {
+    "key": "searchResult",
+    "value": "//div[@class='result-item']",
+    "type": "xpath"
+  },
+  {
+    "key": "basketIcon",
+    "value": "//i[@class='iconsBasketWhite']",
+    "type": "xpath"
+  },
+  {
+    "key": "buyButton",
+    "value": "//div[@class='btnHolder']//span[@id='js-buyBtn']",
+    "type": "xpath"
+  },
+  {
+    "key": "guestUser",
+    "value": "//a[@class='btn-continue' and @title='Üye Olmadan Devam Et']",
+    "type": "xpath"
+  },
+  {
+    "key": "kvkkText",
+    "value": "//span[@class='btn btnBlack']",
+    "type": "xpath"
+  },
+  {
+    "key": "guestMail",
+    "value": "//input[@id='guestEmail']",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationButton",
+    "value": "//span[@id='js-guestVerification']",
+    "type": "xpath"
+  },
+  {
+    "key": "guestPhone",
+    "value": "//input[@id='gsmNumber']",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationInput1",
+    "value": "//input[@class='otp-input' and @tabindex='1']",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationInput2",
+    "value": "//input[@class='otp-input' and @tabindex='2']",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationInput3",
+    "value": "//input[@class='otp-input' and @tabindex='3']",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationInput4",
+    "value": "//input[@class='otp-input' and @tabindex='4']",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationInput5",
+    "value": "//input[@class='otp-input' and @tabindex='5']",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationInput6",
+    "value": "//input[@class='otp-input' and @tabindex='6']",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationCheck",
+    "value": "//span[@class='verifyGuestBtn']",
+    "type": "xpath"
+  },
+  {
+    "key": "nameInput",
+    "value": "//input[@id='fullName' and @class='is-M fullName float-placeholder val-error']",
+    "type": "xpath"
+  },
+  {
+    "key": "tcInput",
+    "value": "//input[@id='shippingAddresstcNO' and @class='is-M tcId float-placeholder val-error'] ",
+    "type": "xpath"
+  },
+  {
+    "key": "citySelect",
+    "value": "//select[@id='cityId' and @name='shippingAddress.cityId' and @class='custom cityId selected']",
+    "type": "xpath"
+  },
+  {
+    "key": "firstCitySelect",
+    "value": "//select[@id='cityId' and @name='shippingAddress.cityId' and @class='custom cityId selected']//option[@value='2501']",
+    "type": "xpath"
+  },
+  {
+    "key": "districtSelect",
+    "value": "//select[@id='districtId' and @name='shippingAddress.districtId' and @class='custom districtId val-error']",
+    "type": "xpath"
+  },
+  {
+    "key": "firstDistrictSelect",
+    "value": "//select[@id='districtId' and @name='shippingAddress.districtId' and @class='custom districtId val-error']//option[@value='22695']",
+    "type": "xpath"
+  },
+  {
+    "key": "neighborhoodsSelect",
+    "value": "//select[@id='neighbourhoodId' and @name='shippingAddress.neighborhoodId' and @class='custom neighbourhoodId val-error']",
+    "type": "xpath"
+  },
+  {
+    "key": "firstNeighborhoodsSelect",
+    "value": "//select[@id='neighbourhoodId' and @name='shippingAddress.neighborhoodId' and @class='custom neighbourhoodId val-error']//option[@value='33']",
+    "type": "xpath"
+  },
+  {
+    "key": "addressDetail",
+    "value": "//textarea[@id='addressDetail' and @class='is-M address val-error']",
+    "type": "xpath"
+  },
+  {
+    "key": "addressName",
+    "value": "//input[@id='addressName' and @class='is-M addressName float-placeholder val-error']",
+    "type": "xpath"
+  },
+  {
+    "key": "goToPayment",
+    "value": "//span[@id='js-goToPaymentBtn']",
+    "type": "xpath"
+  }
+]
