@@ -28,6 +28,8 @@ SSH
 ```bash
   mvn clean install
 ```
+* if you are using windows add your driver to this path: src/drivers/chromedriver.exe
+* for other systems add driver to this path: src/drivers/chromedriver
 
 ## Requirements
 
